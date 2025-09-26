@@ -1,0 +1,33 @@
+[project]
+name = "edm2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.MD"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate==0.27.2",
+    "click>=8.1.8",
+    "diffusers==0.26.3",
+    "huggingface-hub==0.25.1",
+    "optuna>=4.2.1",
+    "optuna-integration[pytorch-distributed]>=4.2.1",
+    "pandas>=2.2.3",
+    "pillow>=11.1.0",
+    "psutil>=7.0.0",
+    "psycopg2-binary>=2.9.10",
+    "requests>=2.32.3",
+    "scipy>=1.15.2",
+    "torch>=2.6.0",
+    "torchaudio>=2.6.0",
+    "torchvision>=0.21.0",
+    "tqdm>=4.67.1",
+    "wandb>=0.19.8",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "seaborn>=0.13.2",
+]
+
+
